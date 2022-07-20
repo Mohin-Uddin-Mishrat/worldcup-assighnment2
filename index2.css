@@ -87,7 +87,7 @@ header .image img{
         background-color: red;
         color: black;
     }
-    .menu-btn:nth-child(3){
+    .menu-btn:nth-child(1){
         background-color: red;
     }
     #document-section .btns-container #btns .menu-btn a{
@@ -96,48 +96,38 @@ header .image img{
     main{
         width: 100%;
     }
-    .blogs{
+    .cards{
         
         width: 70%;
         display:  grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
         gap: 20px;
 
         
     }
-    .blog{
+    .card{
         border: 1px solid wheat;
         border-radius: 10px;
 
          
     }
-    .blogs .blog .blog-desc{
-        padding: 10px;
-    }
-    .blog img{
-        width: 100%;
-    }
-    .blogs .blog h4{
-        border: 1px solid black;
-        padding: 5px 1px;
-        border-radius: 5px;
-        width: 40%;
-        text-align: center;
-        font-weight: 100;
-        overflow: hidden;
-    }
-    .blogs .blog p{
-        font-weight: 600;
-        margin: 10px 0;
-    }
-    .blogs .blog .icons{
+    .flags{
         display: flex;
-        
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
     }
-    .blogs .blog .icons div{
-        margin-right: 20px;
+    .flags div{
+        padding: 0 10px;
     }
+    .description h1, p{
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+   
+    
+
     /*  mAIN END*/ 
 
 
@@ -187,16 +177,14 @@ header .image img{
         padding: 10px 15px;
         font-size: 20px;
     }
+
     footer .contents .social li{
         padding: 10px;
         background-color: azure;
         border: 1px solid black;
-        border-radius: 50px;
-        margin: 20px;
+        border-radius: 50%;
     }
-
-    /* footer END */
-
+    /* footer END */ 
 
 
 
@@ -244,7 +232,7 @@ header .image img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .blogs{
+    .cards{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -259,7 +247,7 @@ header .image img{
 
 
 
-      /*  */
+      /* hidden */
 
       .fc-hidden{
         display: flex;
@@ -274,7 +262,8 @@ header .image img{
         background-color: red;
         border-radius: 7px;
     }
-     
+     /* hidden */
+    
     
 }
 @media only screen and (max-width:600px) {
@@ -327,7 +316,7 @@ header .image img{
     .menu-btn{
         max-width: 100%;
     }
-    .blogs{
+    .cards{
         
         width: 100%;
         display:  grid;
@@ -335,20 +324,6 @@ header .image img{
         
         gap: 20px;
 
-    }
-    .blogs .blog h4{
-        border: 1px solid black;
-        padding: 5px 1px;
-        border-radius: 5px;
-        width: 20%;
-        text-align: center;
-        font-weight: 100;
-        overflow: hidden;
-    }
-    .blogs .blog p{
-        font-weight: 600;
-        font-size: 30px;
-        margin: 10px 0;
     }
     .fc-hidden h2{
         display:  none;
@@ -374,11 +349,5 @@ header .image img{
      }
 
 
-      
-
+   
 }
-
-
-
-
-
