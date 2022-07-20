@@ -20,7 +20,11 @@ header{
     color: antiquewhite;
     display: flex;
     
+   
+    
 }
+
+
 header .half-width{
     width: 50%;
 
@@ -34,6 +38,7 @@ header .articles h1{
     
     padding-bottom: 30px;
 }
+
 header .articles button{
     padding: 20px 40px;
     border-radius: 10px;
@@ -42,11 +47,13 @@ header .articles button{
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: 600;
+    transition: transform 4s ;
 }
 header .articles button:hover{
-    background-color: bisque;
-    color: black;
+    background-color: azure;
+    transform:rotate(-360deg) ;
 }
+    
 header .image{
     display: flex;
     justify-content: center;
@@ -54,9 +61,9 @@ header .image{
     
 }
 header .image img{
+    display: block;
     width: 100%;
-    margin-top: 5%;
-    
+    margin-top: %;
 }
   /* header section end */
 
@@ -66,19 +73,20 @@ header .image img{
         margin: 50px 0;
     }
     #document-section .btns-container{
-        width: 30%;
         margin-right: 20px;
     }
 
     #document-section #btns{
-        padding: 5px;
+        width: 200px;
+        padding: 5px 0;
         background-color: black;
         border-radius: 10px;
         display: grid;
         grid-template-columns: 1fr;
     }
     .menu-btn{
-        margin: 10px 5px;
+        
+        margin: 5px 10px;
         padding: 15px 10px;
         border-radius: 10px;
         transition: .5s;
@@ -98,7 +106,7 @@ header .image img{
     
     .blogs{
         
-        width: 70%;
+        
         display:  grid;
         grid-template-columns: 1fr 1fr 1fr;
         
@@ -133,8 +141,9 @@ header .image img{
     }
 
     .blogs .blog p{
-        font-weight: 600;
-        margin: 10px 0;
+        font-weight: 500;
+        margin: 10px ;
+
     }
     .blogs .blog .icons{
         display: flex;
@@ -231,11 +240,7 @@ header .image img{
         font-weight: 500;
         padding-bottom: 30px;
     }
-    header .image img{
-        width: 600px;
-        margin-top: 5%;
-        
-    }
+    
      /* header section end */
 
 
@@ -249,16 +254,21 @@ header .image img{
 
     }
        #document-section .btns-container{
-        width: 100%; 
-        margin-right: ;
+       
+        width: 100%;
+       
+        
     }
     #document-section #btns{
-        background-color: aliceblue;
-        margin-bottom: 30px;
+        width: 100%;
+        padding:  0;
+        background-color: white;
+        margin-bottom: 50px ;
         border-radius: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
     .blogs{
         width: 100%;
         display: grid;
@@ -306,6 +316,10 @@ header .image img{
         width: 100%;
         padding-left: 0;
         padding-top: 50px;
+    }
+
+    header .articles .cont{
+        text-align: center;
     }
     
     header .articles h1{
